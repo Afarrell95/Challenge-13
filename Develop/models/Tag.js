@@ -13,7 +13,9 @@ Tag.init(
       primaryKey: true,
       allowNull: false,
     },
-    tag_name: {},
+    tag_name: {
+      type: DataTypes.STRING,
+    },
   },
   {
     sequelize,
